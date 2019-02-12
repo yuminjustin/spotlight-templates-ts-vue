@@ -1,0 +1,10 @@
+.hello h1{
+    text-align: center;
+    line-height: 64px;
+    font-weight: normal;
+    color:green;
+}
+.hello img {
+    display: block;
+    margin: 15px auto;
+}
