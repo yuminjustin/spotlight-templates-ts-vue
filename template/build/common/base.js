@@ -16,6 +16,9 @@ module.exports = {
             'C': path.join(__dirname, '../../src/components'), // 组件别名 方便使用
         }
     },
+    plugins: [
+        new webpack.WatchIgnorePlugin([/css\.d\.ts$/])
+    ],
     module: {
         rules: [{
                 test: /\.js$/,
