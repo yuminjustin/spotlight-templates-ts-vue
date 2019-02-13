@@ -1,5 +1,6 @@
 /* webpack基础配置 */
-var path = require('path')
+var path = require('path');
+var webpack = require('webpack');
 var config = require("../config")
 
 var codeBase = path.join(__dirname, '../../src'),
