@@ -13,7 +13,7 @@
       @remove="remove"
     />
     <div class="foot">
-      <span>{{ num }}项被选中</span>
+      <span>\{{ num }}项被选中</span>
       <template v-if="num > 0">
         <button @click="remove2">删除所选</button>
         <button @click="cancel">取消选择</button>
