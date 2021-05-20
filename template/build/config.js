@@ -5,7 +5,7 @@ var path = require('path'),
 
 module.exports = {
     entry: { // 入口 (多)
-        app: ['./src/main.js']
+        app: ['./src/main.ts']
     },
     build: { // 生产环境
         env: '"production"',
