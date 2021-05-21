@@ -15,7 +15,7 @@ module.exports = {
         outputPathName: outputPathName, // gulp & prod
         htmlOption: { // 对应 entry
             app: {
-                title: 'vue webpack',
+                title: 'vue ts webpack',
                 template: 'index.html', // 源模板文件
                 filename: 'index.html' // 输出文件
             }
@@ -33,7 +33,7 @@ module.exports = {
         html5Router: false, // html5 router 
         htmlOption: { // 对应 entry
             app: {
-                title: 'vue webpack',
+                title: 'vue ts webpack',
                 template: 'index.html', // 源模板文件
                 filename: 'index.html' // 输出文件
             }
