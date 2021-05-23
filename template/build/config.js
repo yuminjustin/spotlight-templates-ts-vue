@@ -29,6 +29,7 @@ module.exports = {
         publicPath: "/",
         static: 'static',
         outputPath: path.resolve(__dirname, outputPath), // 临时
+        host: 'localhost',
         port: '6001',
         html5Router: false, // html5 router 
         htmlOption: { // 对应 entry

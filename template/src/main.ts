@@ -2,7 +2,7 @@
 import '@babel/polyfill'
 /* vonder*/
 import Vue from 'vue';
-import App from 'C/app';
+import App from "./components/app.vue";
 /* styles*/
 import "B/assets/css/reset.css"
 import "B/assets/css/page.css"
